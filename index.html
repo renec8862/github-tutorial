@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub-tutorial by renec8862</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/renec8862/github-tutorial">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/renec8862/github-tutorial/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/renec8862/github-tutorial/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>GitHub-tutorial</h1>
+          <p>This tutorial will help you with Github</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/renec8862">renec8862</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p>by Rene Campos</p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<ul>
+<li>Git keeps Snapshots of your work while Github shows your changings</li>
+<li>Github also stores your work into the cloud Git works on the command line</li>
+<li>Github can help you easily collaborate on files Github requires git but git doesn't require git </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<ul>
+<li>Use any web broswer you are comtorable with using </li>
+<li>Go to <a href="github.com">github.com</a>
+</li>
+<li>Sign up by puttimg a username you can easily remember </li>
+<li>Make your password private because you would'nt want anyone to mess with your work (it could happen!?)</li>
+<li>Use a school or work email so you can verify your github account </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="how-to-get-to-your-workspace" class="anchor" href="#how-to-get-to-your-workspace" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to get to your workspace</h2>
+
+<ol>
+<li>You have to be signed to github</li>
+<li>First go to <a href="c9.io">c9.io</a>
+</li>
+<li>On the top right corner their is a gear icon</li>
+<li>Click on the gear icon</li>
+<li>You will see a list click on connected services </li>
+<li>Click on connect this will let github see your github repos</li>
+<li>Now once your connected to github when you go to c9.io you can sign into you workspace by clicking on the octocat next to sigh in</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="how-to-make-a-ssh-key" class="anchor" href="#how-to-make-a-ssh-key" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to make a SSH key</h2>
+
+<ol>
+<li>Go to <a href="github.com">github.com</a>
+</li>
+<li>On the top right corner you will your profile icon click on it and you'll see the settings button</li>
+<li>Click on the settings button</li>
+<li>On the left side bar(Personal Settings) Go down the list and you will see SSH and GPG keys</li>
+<li>Click on it</li>
+<li>Then Click on New SSH</li>
+<li>Go to <a href="c9.io">c9.io</a>
+</li>
+<li>On the top right you will see a gear icon click on it</li>
+<li>Go to the SSH key tab and copy and paste your SSH to github make sure it starts with ssh-rsa</li>
+<li>Finally add the SSH key</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<ul>
+<li>Open your workspace on cloud 9</li>
+<li>Open a new terminal</li>
+<li>Once your new terminal is open you have to follow these steps</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-steps" class="anchor" href="#repository-steps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Steps</h2>
+
+<ol>
+<li>Type cd ~/workspace(Enter after every step)</li>
+<li>Type mkdir first-repo(You can call your repo whatever you want but it would be good to write first-repo)</li>
+<li>Type cd first-repo</li>
+<li>Type git init</li>
+<li>Type touch README.md</li>
+<li>Open the README you just made</li>
+<li>Save it and add .</li>
+<li>Make a commit -m "Example" (Make sure to type a commit message that makes sense to what your doing)</li>
+<li>Go to github.com</li>
+<li>On the top right their is Plus sign click on it</li>
+<li>Click on New Repository</li>
+<li>Put the name of your repository on repository name (<strong>It always has to match</strong>)</li>
+<li>Then Create your Repository</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<ol>
+<li><em>Git Status</em></li>
+<li>It checks the Status of your Repository</li>
+<li>You will find it very helpful when your typing in workspace</li>
+<li>
+<em>Git add</em> </li>
+<li>When you git add your adding it to the staging area</li>
+<li>You need this so youc can be able to see it in your README.md</li>
+<li>
+<em>Git commit</em> </li>
+<li>It helps you by you remembering what you were working on by puting a message in its place</li>
+<li>You can find it really helpful</li>
+<li><em>Git push</em></li>
+<li>It pushes it up to your read me file</li>
+<li>So people can see your amazing work</li>
+</ol>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
